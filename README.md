@@ -19,14 +19,10 @@ Algorithms of interest are Sobel edge detection and weighted sum blending.
 * Scalar added to each sum = 20
 
 ## Example
-Background Image:
-![Background](./test-background.png =380x450)
+|Background Image|Foreground Image|
+|----------------|----------------|
+|<img src="./test-background.png" width="380" height="450"/>|<img src="./test-foreground.png" width="380" height="450"/>|
 
-Foreground Image:
-![Foreground](./test-foreground.png =380x450)
-
-Sobel Edge Detection (Extrusion) on Foreground Image:
-![Extrusion Result](./test-extrusion-result.png =380x450)
-
-Final Blended Result:
-![Blended Result](./test-blended-result.png =380x450)
+|Sobel Image|Blended Image (Final Result)|
+|-----------|-------------|
+<img src="./test-extrusion-result.png" width="380" height="450"/>|<img src="./test-blended-result.png" width="380" height="450"/>|
