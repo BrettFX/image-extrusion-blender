@@ -21,8 +21,8 @@ Algorithms of interest are Sobel edge detection and weighted sum blending.
 ## Example
 |Background Image|Foreground Image|
 |----------------|----------------|
-|<img src="./test-background.png" width="380" height="450"/>|<img src="./test-foreground.png" width="380" height="450"/>|
+|<img src="./example/example-background.png" width="380" height="450"/>|<img src="./example/example-foreground.png" width="380" height="450"/>|
 
 |Sobel Image|Blended Image (Final Result)|
 |-----------|-------------|
-<img src="./test-extrusion-result.png" width="380" height="450"/>|<img src="./test-blended-result.png" width="380" height="450"/>|
+<img src="./example/example-extrusion-result.png" width="380" height="450"/>|<img src="./example/example-blended-result.png" width="380" height="450"/>|

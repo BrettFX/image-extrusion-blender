@@ -1,0 +1,6 @@
+*
+!.gitignore
+!example-background.png
+!example-foreground.png
+!example-extrusion-result.png
+!example-blended-result.png

@@ -1,10 +1,8 @@
 *
+!*/
 !.gitignore
 !*.py
-!test-background.png
-!test-foreground.png
-!test-extrusion-result.png
-!test-blended-result.png
+!/example/**
 !requirements.txt
 !README.md
 
