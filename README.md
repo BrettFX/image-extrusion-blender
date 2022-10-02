@@ -20,13 +20,13 @@ Algorithms of interest are Sobel edge detection and weighted sum blending.
 
 ## Example
 Background Image:
-![Background](./test-background.png)
+![Background](./test-background.png =380x450)
 
 Foreground Image:
-![Foreground](./test-foreground.png)
+![Foreground](./test-foreground.png =380x450)
 
 Sobel Edge Detection (Extrusion) on Foreground Image:
-![Extrusion Result](./test-extrusion-result.png)
+![Extrusion Result](./test-extrusion-result.png =380x450)
 
 Final Blended Result:
-![Blended Result](./test-blended-result.png)
+![Blended Result](./test-blended-result.png =380x450)
