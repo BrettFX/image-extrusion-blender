@@ -178,14 +178,15 @@ def main():
   # Save final result to file
   # Create directory if it doesn't exit
   dir_name = os.path.dirname(args.outpath)
+  path_is_dir_only = os.path.splitext(args.outpath)[1] == ''
   dir_exists = os.path.exists(dir_name)
-  if not dir_exists:
+  if not dir_exists and dir_name != '':
     os.makedirs(dir_name)
 
   outpath = args.outpath
 
   # Determine whether a file was specified in the outpath arg
-  if os.path.splitext(args.outpath)[1] == '':
+  if path_is_dir_only:
     outpath = os.path.join(outpath, 'blended.png')
 
   save_img(blended_img, outpath)
