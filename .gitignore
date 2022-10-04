@@ -2,6 +2,7 @@
 !*/
 !.gitignore
 !*.py
+!*.ipynb
 !/example/**
 !requirements.txt
 !README.md
