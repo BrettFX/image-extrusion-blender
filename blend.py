@@ -110,6 +110,8 @@ def main():
   extruded_fg_img = cv2.Sobel(gray_fg_img, ddepth, dx, dy, ksize=ks)
 
   # Resize foreground image to match the size of the background image
+  # TODO Add ability (by user preference) to add padding around foreground image when image 
+  #      would be stretched to fit the size of the background image (e.g., when aspect ratios don't match)
   original_fg_shape = fg_img.shape
   original_extruded_fg_shape = extruded_fg_img.shape
   h, w, _ = bg_img.shape # Extract height (rows), width (cols), channels (if colored)
